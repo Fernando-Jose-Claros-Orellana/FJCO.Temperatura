@@ -20,7 +20,6 @@ namespace FJCO.Temperatura.Tests
             double actual = temperatureConverter.CelsiusToFahrenheit(celsius);
             Assert.AreEqual(expected, actual);
         }
-
         [TestMethod()]
         public void FahrenheitToCelsiusTest()
         {
